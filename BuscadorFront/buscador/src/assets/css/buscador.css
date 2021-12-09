@@ -1,0 +1,48 @@
+.DivBuscador-container{
+    width: 25%;
+    margin: 0px auto 0px auto;
+}
+
+.DivBuscador{
+    position: relative;
+    padding: 5px;
+}
+.InputBuscador{
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.InputBuscador:focus ~ .lblBuscador{
+    transform: translateY(-35px);
+}
+
+.lblBuscador{
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    transition: transform .3s;
+}
+
+.fijar{
+    transform: translateY(-35px);
+}
+
+.listadoDivContainer{
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listadoDiv{
+    box-shadow: 0px 0px 8px gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+}
